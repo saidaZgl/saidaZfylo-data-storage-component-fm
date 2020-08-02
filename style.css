@@ -2,7 +2,7 @@ html {
     font-size: 14px;
     font-weight: 400, 700;
     font-family: 'Raleway';
-    background-image: url(./images/bg-desktop.svg);
+    background-image: url(images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     height: 100%;
@@ -21,12 +21,8 @@ body {
     flex-flow: row wrap;
     height: 100vh;
     width: 100%;
-    /* margin-top: 300px; */
     align-items: center;
     justify-content: center;
-
-    /* height: 50vh; */
-
 }
 
 .size {
@@ -86,7 +82,6 @@ body {
     background-color: rgb(29, 44, 103);
     height: 140px;
     width: 270px;
-    /* margin-left: 350px;  */
     border-radius: 8px;
     border-top-right-radius: 75px;
 }
@@ -145,7 +140,6 @@ body {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        /* margin-top: 155px; */
     }
 
     .total {
